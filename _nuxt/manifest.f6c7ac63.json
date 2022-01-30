@@ -1,0 +1,10 @@
+{
+  "name": "notes",
+  "short_name": "notes",
+  "description": "## Build Setup",
+  "icons": [],
+  "start_url": "/notes/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "lang": "en"
+}
