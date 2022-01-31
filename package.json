@@ -6,7 +6,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt build && nuxt generate",
+    "generate": "nuxt generate",
     "deploy": "npm install && npm run generate",
     "build:gh-pages": "nuxt build",
     "generate:gh-pages": "nuxt build && nuxt generate"
