@@ -6,8 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "deploy": "npm install && npm run generate",
+    "generate": "nuxt build && nuxt generate",
+    "deploy": "npm install && push-dir --dir=dist --branch=gh-pages --cleanup",
     "build:gh-pages": "nuxt build",
     "generate:gh-pages": "nuxt build && nuxt generate"
   },
