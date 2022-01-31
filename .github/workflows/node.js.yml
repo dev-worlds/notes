@@ -27,7 +27,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
-    - run: generate
+    - run: npm run deploy
+    - run: npm run generate:gh-pages
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
