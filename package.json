@@ -8,8 +8,8 @@
     "start": "nuxt start",
     "generate": "nuxt export && nuxt build",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
-    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
-    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build && nuxt export"
+    "build:gh-pages": "nuxt build",
+    "generate:gh-pages": " nuxt build && nuxt export"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
